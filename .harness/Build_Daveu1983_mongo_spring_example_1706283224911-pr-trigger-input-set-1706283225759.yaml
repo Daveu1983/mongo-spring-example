@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Daveu1983_mongo_spring_example_1706283224911-pr-trigger-input-set
+  identifier: Build_Daveu1983_mongo_spring_example_1706283224911prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Daveu1983_mongo_spring_example_1706283224911
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
