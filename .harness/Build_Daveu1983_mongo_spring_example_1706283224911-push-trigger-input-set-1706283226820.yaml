@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Daveu1983_mongo_spring_example_1706283224911-push-trigger-input-set
+  identifier: Build_Daveu1983_mongo_spring_example_1706283224911pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Daveu1983_mongo_spring_example_1706283224911
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
